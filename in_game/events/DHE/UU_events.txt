@@ -6,6 +6,7 @@ uu_events.1 = {
 
 	title = uu_events.1.title
 	desc = uu_events.1.desc
+	outcome = neutral
 
 	illustration_tags = {
 		10 = happy
@@ -127,6 +128,7 @@ uu_events.2 = {		#Copy of western_schism.4.  Carveout so that the Hussite event 
 
 	title = western_schism.4.title
 	desc = western_schism.4.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/western_schism.dds"
 

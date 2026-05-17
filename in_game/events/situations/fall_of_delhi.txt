@@ -355,6 +355,7 @@ fall_of_delhi.1 = {
 
 	title = delhi_situation.1.title
 	desc = delhi_situation.1.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -368,7 +369,6 @@ fall_of_delhi.1 = {
 
 	immediate = {
 		set_variable = { name = starts_fall_of_delhi_variable value = yes }
-
 		if = {
 			limit = {
 				exists = ruler
@@ -381,7 +381,6 @@ fall_of_delhi.1 = {
 			}
 			regent = { save_scope_as = target_character }
 		}
-
 		#UU
 		pick_best_capital_bahmanis = yes
 		pick_best_capital_malwa = yes
@@ -483,6 +482,7 @@ fall_of_delhi.2 = {
 
 	title = delhi_situation.2.title
 	desc = delhi_situation.2.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -699,6 +699,7 @@ fall_of_delhi.3 = {
 
 	title = delhi_situation.3.title
 	desc = delhi_situation.3.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -732,6 +733,7 @@ fall_of_delhi.4 = { #The Heirs of Delhi
 
 	title = delhi_situation.4.title
 	desc = delhi_situation.4.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -766,6 +768,7 @@ fall_of_delhi.5 = {
 
 	title = delhi_situation.5.title
 	desc = delhi_situation.5.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -788,6 +791,7 @@ fall_of_delhi.6 = {
 
 	title = delhi_situation.6.title
 	desc = delhi_situation.6.desc
+	outcome = neutral
 
 	fire_only_once = yes
 
@@ -808,6 +812,7 @@ fall_of_delhi.7 = {
 
 	title = delhi_situation.7.title
 	desc = delhi_situation.7.desc
+	outcome = neutral
 	fire_only_once = yes
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
@@ -845,6 +850,7 @@ fall_of_delhi.8 = {
 
 	title = delhi_situation.8.title
 	desc = delhi_situation.8.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -959,6 +965,7 @@ fall_of_delhi.9 = {
 
 	title = delhi_situation.9.title
 	desc = delhi_situation.9.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1033,6 +1040,7 @@ fall_of_delhi.10 = {
 
 	title = delhi_situation.10.title
 	desc = delhi_situation.10.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1063,6 +1071,7 @@ fall_of_delhi.11 = {
 
 	title = delhi_situation.11.title
 	desc = delhi_situation.11.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1106,6 +1115,7 @@ fall_of_delhi.12 = {
 
 	title = delhi_situation.12.title
 	desc = delhi_situation.12.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1145,6 +1155,7 @@ fall_of_delhi.13 = {	#Nobles Disagree with our Authority!
 
 	title = delhi_situation.13.title
 	desc = delhi_situation.13.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1217,6 +1228,7 @@ fall_of_delhi.14 = {	#Opposer Insults our Authority!
 
 	title = delhi_situation.14.title
 	desc = delhi_situation.14.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1335,6 +1347,7 @@ fall_of_delhi.15 = {
 
 	title = delhi_situation.15.title
 	desc = delhi_situation.15.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1376,7 +1389,7 @@ fall_of_delhi.15 = {
 				target = ROOT
 				modifier = opinion_pressured_by_delhi
 			}
-			add_trust = {
+			add_trust_equilibrium = {
 				modifier = trust_betrayed_peers
 				target = ROOT
 			}
@@ -1395,6 +1408,7 @@ fall_of_delhi.16 = {
 
 	title = delhi_situation.16.title
 	desc = delhi_situation.16.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 	fire_only_once = yes
@@ -1527,6 +1541,7 @@ fall_of_delhi.17 = {	#Irrigation Works along the Yamuna
 
 	title = delhi_situation.17.title
 	desc = delhi_situation.17.desc
+	outcome = neutral
 
 	illustration_tags = {
 		10 = exterior
@@ -1680,6 +1695,7 @@ fall_of_delhi.18 = {
 
 	title = delhi_situation.18.title
 	desc = delhi_situation.18.desc
+	outcome = neutral
 
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 	historical_info = delhi_situation.18.historical_info
@@ -1764,6 +1780,7 @@ fall_of_delhi.19 = {
 
 	title = delhi_situation.19.title
 	desc = delhi_situation.19.desc
+	outcome = neutral
 
 
 	illustration_tags = {
@@ -1908,6 +1925,7 @@ fall_of_delhi.20 = {
 
 	title = delhi_situation.20.title
 	desc = delhi_situation.20.desc
+	outcome = neutral
 	historical_info = delhi_situation.20.historical_info
 	image = "gfx/interface/illustrations/situation/fall_of_delhi.dds"
 
@@ -1976,6 +1994,7 @@ fall_of_delhi.21 = {
 
 	title = delhi_situation.21.title
 	desc = delhi_situation.21.desc
+	outcome = neutral
 
 	illustration_tags = {
 		10 = interior
@@ -2068,6 +2087,7 @@ fall_of_delhi.22 = {
 
 	title = delhi_situation.22.title
 	desc = delhi_situation.22.desc
+	outcome = neutral
 
 	illustration_tags = {
 		10 = interior
