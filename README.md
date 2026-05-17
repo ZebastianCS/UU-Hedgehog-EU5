@@ -10,7 +10,7 @@ Global Gameplay
     - Stability cost of deleting markets reduced to 10
     - Correct Section chance set to 100%
     - Base diplo-annexation cost changed from 200 to 125
-    - Secure Flanks bonus for infantry changed to 25% from 5%
+    - Secure Flanks bonus for infantry changed to 35% from 5%
   Multiplayer
     - Removed hour ticks, combat adjusted accordingly
     - Low relations no longer blocks players from forming alliances

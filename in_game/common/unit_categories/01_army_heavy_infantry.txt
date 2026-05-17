@@ -24,7 +24,7 @@
 	combat_speed = 2
 	
 	flanking_ability = 1.0
-	secure_flanks_defense = 0.25		#UU was 0.05
+	secure_flanks_defense = 0.35		#UU was 0.05
 
 	maintenance_demand =  infantry_maintenance
 	construction_demand = infantry_construction
