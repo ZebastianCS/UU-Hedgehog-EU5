@@ -8,14 +8,15 @@ Global Gameplay
     - Max fort limit from number of locations halved
     - Non-AI forts cannot be placed adjacent to another fort of the same owner
     - Stability cost of deleting markets reduced to 10
+    - Correct Section chance set to 100%
+    - Base diplo-annexation cost changed from 200 to 125
+    - Secure Flanks bonus for infantry changed to 25% from 5%
   Multiplayer
     - Removed hour ticks, combat adjusted accordingly
     - Low relations no longer blocks players from forming alliances
     - GP score from country ranks halved
     - Rivers now visible in Road/Road Builder mapmodes
-    - Unconditional Surrender Diplomacy Action Added
   Societal Values and Advances
-    - Centralization gives up to +25% integration speed. No longer affects annexation speed
     - Offensive gives up to +20% siege ability and assault ability, and -10% fort defense
     - Defensive gives up to +33% fort defense, and -10% siege ability. No longer affects army movement speed. 
     - Age of Renaissance diplo focus buffed: +2.5% income from vassals, +250 trade range
