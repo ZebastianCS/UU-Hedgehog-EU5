@@ -11,6 +11,8 @@ REPLACE:written_alphabet = {
 	global_max_literacy = 5
 	# global_monthly_literacy = 0.01
 	global_monthly_literacy = 0.1			#UU This is a placeholder until PDX fixes the bug with new pops spawning with 0 literacy
+
+	correct_box_chance = 1					#UU Correct section chance
 	
 	starting_technology_level = 2
 	
