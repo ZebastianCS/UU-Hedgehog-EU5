@@ -1,0 +1,71 @@
+﻿unconditional_surrender = {
+    type = diplomacy
+    category = CATEGORY_HOSTILE_ACTIONS
+
+    block_when_at_war = no # Allow while at war with target
+    use_enroute = no # Ignores "diplomat enroute" feature
+    ai_tick = never
+
+    potential = {
+        scope:actor = {
+            at_war = yes # Only appear if you are at war
+            is_ai = no
+        }
+    }
+
+    allow = {
+        scope:actor = {
+            at_war = yes
+            is_ai = no
+        }
+    }
+
+    select_trigger = {
+        looking_for_a = country
+        target_flag = recipient
+        interaction_source_list = {
+            scope:actor = {
+                every_enemy_war_leader = {
+                    add_to_list = source
+                }
+            }
+        }
+        cache_interaction_source_list = yes
+        name = "choose_war_to_unconditional_surrender"
+        none_available_msg_key = "unconditional_surrender_no_countries"
+        column = {
+            data = name
+        }
+        visible = {
+            is_at_war_with = scope:actor # Show all enemies in the list
+        }
+        enabled = { # Only allow enemies that are enemy war leaders to be clickable to surrender to
+            scope:actor = {
+                any_current_war = {
+                    scope:recipient = {
+                        is_war_leader_of = prev
+                    }
+                }
+            }
+        }
+    }
+
+    effect = {
+        scope:actor = {
+            every_owned_location = { # surrender all of your locations
+                limit = {
+                    controller ?= scope:actor # only if you are active controller
+                }
+                change_location_controller = scope:recipient
+            }
+            every_subject = {
+                every_owned_location = { # surrender all subject locations
+                    limit = {
+                        controller ?= prev
+                    }
+                    change_location_controller = scope:recipient
+                }
+            }
+        }
+    }
+}
