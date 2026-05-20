@@ -1,0 +1,18 @@
+﻿REPLACE:superiority_coalition = {
+	type = superiority
+	
+	war_name = "COALITION_WAR_NAME" #uses second
+	
+	attacker = {
+		conquer_cost = 0.75
+		subjugate_cost = 0.75
+		release_cost = 0.75
+	}
+	
+	defender = {
+		conquer_cost = 2.5
+		subjugate_cost = 2.5
+		release_cost = 2.5
+	}
+	ticking_war_score = 0.5
+}
