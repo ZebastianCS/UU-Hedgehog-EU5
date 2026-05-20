@@ -6,7 +6,7 @@
 	attacker = {
 		conquer_cost = 0.75
 		subjugate_cost = 0.75
-		release_cost = 0.75
+		release_cost = 0.75 #was 0.25
 	}
 	
 	defender = {
