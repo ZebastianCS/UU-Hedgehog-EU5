@@ -14,6 +14,8 @@ colors = {
 	map_MNG = rgb { 239 67 70 }			#Red Ming 
 	map_ILK = rgb { 232 48 2 }			#EU4 Ilkhanate
 	map_croatian = rgb { 104 94 247 } 	#EU4 Croatia
+	map_naples = rgb { 63 15 110 }   	#EU4 Naples
+	map_TWS = rgb { 0 55 11 }
 
 	########################
 
@@ -123,7 +125,7 @@ colors = {
 	map_KID = rgb { 104 130 172 }
 	map_ORD = rgb { 220 227 43 }
 	map_DMS = rgb { 179 89 89 }
-	map_TWS = hsv360 { 180 92 42 }
+	# map_TWS = hsv360 { 180 92 42 }
 
 	map_USA = rgb { 69 157 208 }
 	map_CAN = rgb { 94 117 55 }
@@ -755,7 +757,7 @@ colors = {
 	map_modena = rgb { 192 102 151 }
 	map_mondovi = rgb { 230 0 5 }
 	map_monferrat = rgb { 173 112 76 }
-	map_naples = hsv360 { 200 86 53 }
+	# map_naples = hsv360 { 200 86 53 } #UU
 	map_padua = rgb { 194 105 183 }
 	map_papalstates = rgb { 211 220 178 }
 	map_parma = rgb { 128 202 129 }
