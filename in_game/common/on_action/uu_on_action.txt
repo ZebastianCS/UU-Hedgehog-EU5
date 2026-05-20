@@ -1,0 +1,24 @@
+﻿on_game_start = {
+    effect = {
+        if = {
+            limit = { current_year < 1338 } #No idea if this is necessary, but just in case. 
+            
+            c:NAP = {
+                trigger_event_non_silently = flavor_nap.200     #The will of King Robert
+            }
+
+            c:TUR = {
+                every_owned_location = { change_integration_level = core }
+            }
+            c:MOR = {
+                every_owned_location = { change_integration_level = core }
+            }
+        }
+    }
+}
+
+monthly_country_pulse = {
+    events = {
+        uu_events.1 #no adjacent forts
+    }
+}

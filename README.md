@@ -2,7 +2,7 @@
 
 ## Current Features:
 
-Global Gameplay
+Global
     - Removed crownpower malus from having debt
     - Expensive education upfront cost removed, 3% cost of court instead
     - Max fort limit from number of locations halved
@@ -21,7 +21,8 @@ Global Gameplay
     - Defensive gives up to +33% fort defense, and -10% siege ability. No longer affects army movement speed. 
     - Age of Renaissance diplo focus buffed: +2.5% income from vassals, +250 trade range
     - Theocracy mil tactics advance increase from 0.025 to 0.1
-Regional Balancing
+Regional
+  
   Asia
     - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations
