@@ -10,9 +10,9 @@
 	}
 	
 	defender = {
-		conquer_cost = 2.5
-		subjugate_cost = 2.5
-		release_cost = 2.5
+		conquer_cost = 1.25
+		subjugate_cost = 1.25
+		release_cost = 1.25
 	}
 	ticking_war_score = 0.5
 }
