@@ -1,0 +1,25 @@
+﻿
+#multiplied by 1 for each month over 10 years - this can be set with PARLIAMENT_MONTHS_NOT_CALLED_THRESHOLD
+REPLACE:parliament_not_called = {
+	game_data = {
+		category = country
+	}
+	#UU made nothing
+}
+
+uu_eng_hyw_mod = {
+	game_data = {
+		category = country
+	}
+	strength_damage_done = 0.1
+	nobles_estate_levy_size = 0.5
+	discipline = 0.025
+}
+
+uu_eng_hyw_mod_lose = {
+	game_data = {
+		category = country
+	}
+	nobles_estate_levy_size = -0.25
+	discipline = -0.025
+}

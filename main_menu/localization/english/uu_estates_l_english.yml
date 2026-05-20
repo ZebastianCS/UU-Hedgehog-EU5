@@ -4,3 +4,8 @@
 
  overextension_france: "Overextension of the Crown"
  overextension_france_desc: "The sheer size and power of our country has naturally left loopholes for bad actors to exploit."
+
+ STATIC_MODIFIER_NAME_uu_eng_hyw_mod: "Ambitions in France"
+ STATIC_MODIFIER_DESC_uu_eng_hyw_mod: ""
+ STATIC_MODIFIER_NAME_uu_eng_hyw_mod_lose: "Shattered Ambitions"
+ STATIC_MODIFIER_DESC_uu_eng_hyw_mod_lose: "" 
