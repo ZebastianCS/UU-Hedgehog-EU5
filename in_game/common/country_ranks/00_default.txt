@@ -105,6 +105,8 @@ rank_duchy = {
 		allowed_guarantee = yes
 
 		mercenary_range_modifier = 0.25
+
+		global_integration_speed_modifier = 0.75
 	}
 	
 	
@@ -140,6 +142,7 @@ rank_county = {
 		num_possible_rivals = 1
 
 		allowed_alliance = yes
+		global_integration_speed_modifier = 1
 	}
 	
 	language_power_scale = 0.05
