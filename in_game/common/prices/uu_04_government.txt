@@ -1,0 +1,14 @@
+﻿REPLACE:rank_empire_upgrade = {
+	gold = 1000
+	scaled_gold = 4.0
+}
+
+REPLACE:rank_kingdom_upgrade = {
+	gold = 250
+	scaled_gold = 2.0
+}
+
+REPLACE:rank_duchy_upgrade = {
+	gold = 100
+	scaled_gold = 1.0
+}
