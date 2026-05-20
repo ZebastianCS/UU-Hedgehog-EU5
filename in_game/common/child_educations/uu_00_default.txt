@@ -1,7 +1,6 @@
 ﻿#scope for allow is the character.
 
-REPLACE:expensive_in_depth_education =
-{
+REPLACE:expensive_in_depth_education = {
 	allow = {
 	}
 

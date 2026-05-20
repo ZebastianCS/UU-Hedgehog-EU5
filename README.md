@@ -11,10 +11,16 @@
     - Base diplo-annexation cost changed from 200 to 125
     - GP score from country ranks halved
     - Rivers now visible in Road/Road Builder mapmodes
+    - Adjusted coalition war goal to not make releasing so cheap
+    - Added a debuffing estate privilege to the following major nations: 
+      - France, England, Hungary, Castile, Mamluks,  
+    - Towns/Cities now have a -10%/-25% food production debuff
+    - Lowered prestige cost and increased gold cost for increasing country rank
+    - Counties/Duchies have a +100%/+75% integration speed
   - Multiplayer/Combat
     - Removed hour ticks, combat adjusted accordingly
     - Low relations no longer blocks players from forming alliances
-    - Secure Flanks bonus for infantry changed to 35% from 5%
+    - Secure Flanks bonus for infantry changed to 35%/70% from 5%/10%
     - Correct Section chance set to 100%
     - Players cannot have forts on adjacent locations
   - Societal Values and Advances
@@ -22,13 +28,11 @@
     - Defensive gives up to +33% fort defense, and -10% siege ability. No longer affects army movement speed. 
     - Age of Renaissance diplo focus buffed: +2.5% income from vassals, +250 trade range
     - Theocracy mil tactics advance increase from 0.025 to 0.1
-- Regional
   - Asia
     - Ottomans starts with every location cored
     - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations
   - W. Europe
-    - Added strait crossing between Calais and Dover
     - Western Schism Removed, PAP French Cardinals privilege removed (Hussite wars can still occur)
     - France and England can't hold parliament until the end of the 100yr War
     - Flanders starts independent and as an HRE prince
