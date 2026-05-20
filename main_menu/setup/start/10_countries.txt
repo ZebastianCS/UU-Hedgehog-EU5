@@ -1873,6 +1873,7 @@ countries = {
 			privilege = {
 				inaugural_diplomas
 				ius_teutonicum
+				overextension
 			}
 
 		}
@@ -4420,6 +4421,7 @@ countries = {
 				noble_fortification_licenses
 				manorial_courts
 				primacy_of_nobility
+				overextension
 
 				#burghers
 				formal_guilds
@@ -10725,6 +10727,7 @@ countries = {
 
 			privilege = {
 				formal_guilds
+				overextension
 			}
 		}
 		accepted_cultures = { sicilian }
@@ -13752,6 +13755,7 @@ countries = {
 			privilege = {
 				#Noblity
 				monetary_fiefs
+				overextension
 				#Clergy
 				clergy_military_orders
 				#Commoners
@@ -14372,6 +14376,7 @@ countries = {
 				chancellor_nobles
 				villes_franches
 				great_offices_of_the_crown_of_france
+				overextension_france
 			}
 		}
 
@@ -17742,6 +17747,7 @@ countries = {
 				nobles_land_rights
 				noble_marriage_rights
 				noble_fortification_licenses
+				overextension
 
 				#clergy
 				clergy_literacy_rights
@@ -21853,6 +21859,7 @@ countries = {
 				#Nobles
 				elaborate_court_ceremonies
 				banal_lordship
+				overextension
 
 				#Ulama
 				waqf_payments
