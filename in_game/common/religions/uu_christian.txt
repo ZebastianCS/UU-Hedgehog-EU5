@@ -2,7 +2,7 @@
 	color = religion_catholic
 	group = christian
 	
-	language = latin_language
+	language = church_dialect
 	
 	needs_reform = yes
 	has_religious_influence = yes
@@ -13,7 +13,7 @@
 	
 	important_country = PAP
 	
-	tithe = 0.02		#2% is 20% of the tenth
+	tithe = 0.0													#UU does this work? removing tithe
 	
 	definition_modifier = {
 		clergy_estate_max_tax = -1.0
@@ -21,7 +21,7 @@
 		global_clergy_max_literacy = 25
 		
 		can_have_monasteries = yes
-		block_from_change_to_empire_rank_catholic = no	##uu removed
+		block_from_change_to_empire_rank_catholic = no			##uu removed
 		maximum_religious_influence = 900
 
 		cannot_declare_no_cb_wars_on_religion_head = yes
