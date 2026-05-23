@@ -218,14 +218,6 @@ zmc_location_size_impact = {
 
 
 
-zmc_closeness_to_equator_impact = {
-	value = modifier:closeness_to_equator_impact
-}
-
-
-
-
-
 zmc_province_tax_base = {
 	value = province.province_tax_base #province_tax_base
 }

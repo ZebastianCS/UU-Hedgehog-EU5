@@ -22,4 +22,5 @@ uu_eng_hyw_mod_lose = {
 	}
 	nobles_estate_levy_size = -0.25
 	discipline = -0.025
+	global_sailors_modifier = 0.1
 }

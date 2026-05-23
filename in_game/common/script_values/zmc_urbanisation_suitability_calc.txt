@@ -94,7 +94,7 @@ zmc_local_urbanisation_suitability_level = {
 		add = 6
 	}
 	else_if = {
-		limit = { climate = hot_arid }
+		limit = { climate = arid }
 		add = 2
 	}
 	else = {

@@ -10,13 +10,14 @@
     - Stability cost of deleting markets reduced to 10
     - Base diplo-annexation cost changed from 200 to 125
     - GP score from country ranks halved
+    - GP score from regulars doubled
     - Rivers now visible in Road/Road Builder mapmodes
-    - Adjusted coalition war goal to not make releasing so cheap
+    - Adjusted coalition war goal to make releasing countries from defender less cheap/taking land from attacker less expensive
     - Added a debuffing estate privilege to the following major nations: 
-      - France, England, Hungary, Castile, Mamluks,  
+      - France, England, Hungary, Castile, Mamluks, Naples, Bohemia
     - Towns/Cities now have a -10%/-25% food production debuff
     - Lowered prestige cost and increased gold cost for increasing country rank
-    - Counties/Duchies have a +100%/+75% integration speed
+    - Counties/Duchies have a +100%/+75% integration speed buff
   - Multiplayer/Combat
     - Removed hour ticks, combat adjusted accordingly
     - Low relations no longer blocks players from forming alliances
@@ -33,8 +34,9 @@
     - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations
   - W. Europe
-    - Western Schism Removed, PAP French Cardinals privilege removed (Hussite wars can still occur)
-    - France and England can't hold parliament until the end of the 100yr War
+    - Pope no longer receives tithe income
+    - France and England can't hold parliament until the end of the HYW
+      - England receives a land military boost during the HYW, which they keep if they win, and converts to a malus if they lose
     - Flanders starts independent and as an HRE prince
     - Brittany is a vassal of England instead of France
     - French unique govt. reforms both give 1 cultures_capacity
@@ -54,6 +56,7 @@
 ## Temporary features:
 
 - Monthly literacy gain rate increased to 10x, until the new pops literacy bug is fixed
+- Smallpox made slightly less punishing until we determine the validity of conflicting reports on disease strength
 
 
 ## Integration of mods:
