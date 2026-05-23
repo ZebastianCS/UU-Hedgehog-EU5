@@ -27,10 +27,11 @@ NUnit = {
 
 
 NCombat = {
-	MINIMUM_COMBAT_DURATION = 12			#12 days. was 24 hours. 
+	MINIMUM_COMBAT_DURATION = 12			#12 days. was 24 hours.
+	MINIMUM_NAVAL_COMBAT_DURATION = 12 		#12 days. was 72 hours.
 
 	BOMBARD_HOURS = 3						#was 5 | N/B: Damage/tick has been increased by about a factor of 5
-	HOURS_PER_PHASE = 3						#was 5
+	HOURS_PER_PHASE = 1						#was 5
 
 	COMBAT_DAMAGE_MULT = 0.05 				#was 0.01 | 5x Damage per tick 
 	COMBAT_HOURLY_MORALE_TICK = 0.05		#was 0.01
