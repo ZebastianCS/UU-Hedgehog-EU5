@@ -11,9 +11,8 @@ uu_eng_hyw_mod = {
 	game_data = {
 		category = country
 	}
-	strength_damage_done = 0.1
 	nobles_estate_levy_size = 0.5
-	discipline = 0.025
+	discipline = 0.05
 }
 
 uu_eng_hyw_mod_lose = {
