@@ -14,7 +14,8 @@ colors = {
 	map_MNG = rgb { 239 67 70 }			#Red Ming 
 	map_ILK = rgb { 232 48 2 }			#EU4 Ilkhanate
 	map_croatian = rgb { 104 94 247 } 	#EU4 Croatia
-	map_naples = rgb { 63 15 110 }   	#EU4 Naples
+	map_naples = hsv360 { 265 60 35 }  	#Vanilla byz
+	map_BYZ = rgb { 128 0 32 } 		#EU4 Naples
 	map_TWS = rgb { 0 55 11 }
 
 	########################
@@ -380,7 +381,7 @@ colors = {
 	map_thessalian = rgb { 146 35 38 } #new color
 	map_naxos = hsv { 0.55 0.9 0.38 }
 	map_epirus = rgb { 110 147 236 } #new color
-	map_BYZ = hsv360 { 287 62 55 } #new color
+	#map_BYZ = hsv360 { 287 62 55 } #new color #changed in UU, moved to top
 	map_serbian = rgb { 181 24 24 } #same as in EU4
 	map_albanian = rgb { 186 98 45 } #new color
 	map_arvanite = rgb { 227 83 84 } #new color
@@ -4284,7 +4285,7 @@ colors = {
 	war_of_religions_catholic_league_ally_color = rgb { 189 183 107 }    	# Dark Khaki
 	#Venice - The Golden Republic
 	map_venice_orange = rgb { 253 140 28 } #Venetian Flag Color
-	map_venice_purple = rgb { 128 0 32 } #EU4 La Serenissima Color
+	# map_venice_purple = rgb { 128 0 32 } #EU4 La Serenissima Color ## UU STOLE THIS
 	#Reformation
 	reformation_reformer = rgb { 27 201 104 }
 	reformation_jesuits_state = rgb { 201 6 10 }
