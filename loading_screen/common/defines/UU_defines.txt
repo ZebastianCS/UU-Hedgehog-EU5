@@ -19,6 +19,10 @@ NGame = {
 	GAME_SPEED_FOR_MULTI_PLAYERS_WARS = 4	#same as 1.0.10 speed 3
 }
 
+NCountry = {
+	ANNEX_BASE_COST = 125
+}
+
 NUnit = {
 
 	ARMY_MOVEMENT_SPEED = 0.7				#was 0.13	
