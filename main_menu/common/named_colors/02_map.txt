@@ -20,6 +20,7 @@ colors = {
 	map_cilicia = rgb { 145 28 30 } 	#Changed slightly
 	map_TWS = rgb { 33 119 58 }			#EU5 Stettin
 	map_STE = rgb { 33 149 58 }			#Changed slightly
+	map_DAU2 = rgb { 253 211 11 }		#Yellow - as a favour to herisson
 
 	########################
 

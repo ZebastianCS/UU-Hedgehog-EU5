@@ -7,11 +7,15 @@
                 trigger_event_non_silently = flavor_nap.200     #The will of King Robert
             }
 
-            c:TUR = {
+            c:TUR = {   #Ottomans
                 every_owned_location = { change_integration_level = core }
             }
-            c:MOR = {
+            c:MOR = {   #Morocco
                 every_owned_location = { change_integration_level = core }
+            }
+
+            c:DAU = {   #Dauphine of Viennois change colour to yellow, as a favour to herisson
+                change_country_color = map_DAU2
             }
         }
     }
