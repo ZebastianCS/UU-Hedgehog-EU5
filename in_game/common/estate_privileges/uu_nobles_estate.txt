@@ -1,5 +1,35 @@
 overextension = {
 	estate = nobles_estate
+
+	potential = {
+		NOT = {
+			has_variable = overextension_revoked
+		}
+		OR = {
+			has_or_had_tag = ENG
+			has_or_had_tag = CAS
+			has_or_had_tag = MAM
+			has_or_had_tag = HUN
+			has_or_had_tag = BOH
+			has_or_had_tag = NAP
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_variable = overextension_revoked
+		}
+	}
+
+	on_deactivate ={
+		set_variable = {
+			name = overextension_revoked
+			value = yes
+			hidden = yes
+		}
+	}
+
+
 	country_modifier = {
 		global_nobles_estate_power = 2.0
 		nobles_estate_target_satisfaction = 0.1
@@ -12,6 +42,28 @@ overextension = {
 
 overextension_france = {
 	estate = nobles_estate
+
+	potential = {
+		NOT = {
+			has_variable = overextension_revoked
+		}
+		has_or_had_tag = FRA
+	}
+
+	allow = {
+		NOT = {
+			has_variable = overextension_revoked
+		}
+	}
+
+	on_deactivate ={
+		set_variable = {
+			name = overextension_revoked
+			value = yes
+			hidden = yes
+		}
+	}
+
 	country_modifier = {
 		global_nobles_estate_power = 0.75
 		nobles_estate_target_satisfaction = 0.1
