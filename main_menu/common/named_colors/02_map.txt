@@ -15,9 +15,11 @@ colors = {
 	map_MNG = rgb { 239 67 70 }			#Red Ming 
 	map_ILK = rgb { 232 48 2 }			#EU4 Ilkhanate
 	map_croatian = rgb { 104 94 247 } 	#EU4 Croatia
-	map_naples = hsv360 { 265 60 35 }  	#Vanilla byz
-	map_BYZ = rgb { 128 0 32 } 		#EU4 Naples
-	map_TWS = rgb { 0 55 11 }
+	map_naples = rgb { 100 50 100 }  	#Purple
+	map_BYZ = rgb { 141 28 73 }			#EU5 Cilicia
+	map_cilicia = rgb { 145 28 30 } 	#Changed slightly
+	map_TWS = rgb { 33 119 58 }			#EU5 Stettin
+	map_STE = rgb { 33 149 58 }			#Changed slightly
 
 	########################
 
@@ -127,7 +129,7 @@ colors = {
 	map_KID = rgb { 104 130 172 }
 	map_ORD = rgb { 220 227 43 }
 	map_DMS = rgb { 179 89 89 }
-	# map_TWS = hsv360 { 180 92 42 }
+	# map_TWS = hsv360 { 180 92 42 }	#UU
 
 	map_USA = rgb { 69 157 208 }
 	map_CAN = rgb { 94 117 55 }
@@ -275,7 +277,7 @@ colors = {
 	map_KOL = rgb { 84 124 48 }
 	map_PDB = rgb { 214 90 79 }
 	map_RUP = rgb { 136 48 66 }
-	map_STE = rgb { 33 119 58 }
+	# map_STE = rgb { 33 119 58 }
 	map_TIR = rgb { 170 43 21 }
 	map_TRI = rgb { 208 104 44 }
 
@@ -2907,7 +2909,7 @@ colors = {
 	map_ayyubids = rgb { 234 179 30 }
 	map_bafra = rgb { 173 212 248 }
 	map_candarids = hsv360 { 28 65 70 }
-	map_cilicia = rgb { 141 28 73 } 
+	# map_cilicia = rgb { 141 28 73 } 			#UU
 	map_cyprus = hsv360 { 162 93 51 }
 	map_dilmacids = rgb { 198 108 164 }
 	map_dulkadirids = rgb { 233 255 218 }
