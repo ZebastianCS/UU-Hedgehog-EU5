@@ -1659,4 +1659,11 @@ international_organization_manager = {
 		}
 		icon = smartism
 	}
+
+	add_international_organization = {
+    	type = union
+    	creation_date = 1319.5.8
+    	members = { SWE NOR }
+    	leader = SWE
+	}
 }
