@@ -1,6 +1,4 @@
-﻿NDiplomacy = {
-	SEND_GIFT_COOLDOWN = 0 					#was 120 months
-}
+﻿
 
 NGame = {
 	HOUR_TICK = 24							#1 tick = 24 hours
@@ -24,22 +22,30 @@ NCountry = {
 }
 
 NUnit = {
-
 	ARMY_MOVEMENT_SPEED = 0.7				#was 0.13	
 	NAVY_MOVEMENT_SPEED = 1.5				#was 0.5
 }
 
 
 NCombat = {
-	MINIMUM_COMBAT_DURATION = 12			#12 days. was 24 hours.
+	MINIMUM_COMBAT_DURATION = 7				#7 days. was 24 hours.
 	MINIMUM_NAVAL_COMBAT_DURATION = 12 		#12 days. was 72 hours.
 
-	BOMBARD_HOURS = 3						#was 5 | N/B: Damage/tick has been increased by about a factor of 5
-	HOURS_PER_PHASE = 1						#was 5
+	BOMBARD_HOURS = 3						#was 5 | N/B: Damage/tick has been increased by about a factor of 3
 
-	COMBAT_DAMAGE_MULT = 0.05 				#was 0.01 | 5x Damage per tick 
-	COMBAT_HOURLY_MORALE_TICK = 0.05		#was 0.01
+	HOURS_PER_PHASE = 1						#was 5 | How often the dice refreshes
+
+	COMBAT_DAMAGE_MULT = 0.03 				#was 0.01 | 3x Damage per tick 
+	COMBAT_HOURLY_MORALE_TICK = 0.03		#was 0.01
 	
 	INITIATIVE_CHANCE_EACH = 0.06			#was 0.02 | Chance to engage per point of initiative
-	INITIATIVE_CHANCE_HOURS = 0.1			#was 0.01 | Chance to engage per hour passed (adds with INITIATIVE_CHANCE_EACH) 	
+	INITIATIVE_CHANCE_HOURS = 0.12			#was 0.01 | Chance to engage per hour passed (adds with INITIATIVE_CHANCE_EACH)
+
+	COMBAT_SPEED_SCALE = 0.5				#was 0.05 | No idea what this does, but Gekk mod had it 	
+}
+
+NDiplomacy = {
+	SEND_GIFT_COOLDOWN = 0 					#was 120 months
+
+	CALL_FOR_PEACE_WARSCORE_LIMIT = 80 		#was 67
 }

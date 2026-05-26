@@ -18,6 +18,7 @@
     - Towns/Cities now have a -10%/-25% food production debuff
     - Lowered prestige cost and increased gold cost for increasing country rank
     - Counties/Duchies have a +100%/+75% integration speed buff
+    - Call For Peace war score threshold moved from 67 to 80
   - Multiplayer/Combat
     - Removed hour ticks, combat adjusted accordingly
     - Low relations no longer blocks players from forming alliances
