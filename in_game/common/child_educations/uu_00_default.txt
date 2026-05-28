@@ -11,6 +11,6 @@ REPLACE:expensive_in_depth_education = {
 		character_child_education = 0.75
 	}
 	country_modifier = {
-		court_spending_cost = 0.03	#uu increased from 0.01
+		court_spending_cost_modifier = 0.15	#UU tripled, since no flat gold cost
 	}
 }

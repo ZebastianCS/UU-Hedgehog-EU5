@@ -20,7 +20,7 @@ REPLACE:megalopolis = {
 		
 		local_integration_speed_modifier = -1.00
 		
-		local_monthly_food_modifier = -0.68
+		local_monthly_food_modifier = -0.68 #UU
 		
 		local_pop_promotion_speed_modifier = 0.50
 		
@@ -82,7 +82,7 @@ REPLACE:city = {
 		
 		local_food_capacity = 500
 
-		local_monthly_food_modifier = -0.25
+		local_monthly_food_modifier = -0.25 #UU
 		
 		local_construction_speed = 0.25
 		
@@ -141,7 +141,7 @@ REPLACE:town = {
 		local_population_capacity = 20
 		local_population_capacity_modifier = 0.10
 		local_food_capacity = 250
-		local_monthly_food_modifier = -0.1
+		local_monthly_food_modifier = -0.1 #UU
 		local_integration_speed_modifier = -0.25
 		
 		local_possible_town_rights = 1

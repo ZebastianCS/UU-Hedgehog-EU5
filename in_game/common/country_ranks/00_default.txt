@@ -71,6 +71,8 @@ rank_kingdom = {
 		allowed_guarantee = yes
 		allowed_support_rebels = yes
 		
+		num_local_governors = 1
+		
 		
 		mercenary_range_modifier = 0.5
 	}
@@ -106,9 +108,10 @@ rank_duchy = {
 
 		mercenary_range_modifier = 0.25
 
-		global_integration_speed_modifier = 0.75
+		global_integration_speed_modifier = 0.75 #UU
 	}
 	
+	victory_card = yes
 	
 	language_power_scale = 0.25
 	allow = {
@@ -142,7 +145,7 @@ rank_county = {
 		num_possible_rivals = 1
 
 		allowed_alliance = yes
-		global_integration_speed_modifier = 1
+		global_integration_speed_modifier = 1 #UU
 	}
 	
 	language_power_scale = 0.05

@@ -171,7 +171,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = ANG subject_type = appanage }
 
     #Vassal, Fief Mouvant of France
-    #dependency = { first = FRA second = BRI subject_type = vassal }    #uu change, moved to england
+    # dependency = { first = FRA second = BRI subject_type = vassal }    #uu change, moved to england
     dependency = { first = FRA second = FOI subject_type = vassal }
     dependency = { first = FRA second = AMG subject_type = vassal }
     dependency = { first = FRA second = FRZ subject_type = vassal }
@@ -187,7 +187,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = MON subject_type = vassal }
     dependency = { first = FRA second = AUM subject_type = vassal }
     dependency = { first = FRA second = ROU subject_type = vassal }
-    #dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #uu removed
+    # dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #uu removed
     dependency = { first = FRA second = NEV subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = RET subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = NRB subject_type = vassal }

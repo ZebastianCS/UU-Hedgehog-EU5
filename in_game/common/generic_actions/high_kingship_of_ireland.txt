@@ -242,7 +242,7 @@ claim_high_kingship = {
 				has_variable = high_kingship_dormant
 				international_organization_has_leader = no
 			}
-			prestige >= 25		}
+			prestige >= 25		}   #UU
 	}
 
 	select_trigger = {
@@ -260,7 +260,7 @@ claim_high_kingship = {
 
 	effect = {
 		scope:actor = {
-			add_prestige = -25
+			add_prestige = -25  #UU
 		}
 		scope:recipient = {
 			remove_variable = high_kingship_dormant

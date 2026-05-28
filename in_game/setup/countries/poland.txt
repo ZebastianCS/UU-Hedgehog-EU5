@@ -153,7 +153,7 @@ ZAZ = {
 	religion_definition = orthodox
 }
 
-#Silesian Duchies --- UU consolidated
+#UU Deleted Silesian duchies and replaced with one tag
 SIL = {
 	color = map_SIL
 
