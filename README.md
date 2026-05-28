@@ -5,8 +5,8 @@
 - Global
   - General
     - Removed crownpower malus from having debt
-    - Expensive education upfront cost removed, 3% cost of court instead
-    - Max fort limit from number of locations halved
+    - Expensive education upfront cost removed, changed from 5% to 15% cost of court modifier instead
+    - Max. fort limit from number of locations halved
     - Stability cost of deleting markets reduced to 10
     - Base diplo-annexation cost changed from 200 to 125
     - GP score from country ranks halved
@@ -21,6 +21,7 @@
     - Call For Peace war score threshold moved from 67 to 80
   - Multiplayer/Combat
     - Removed hour ticks, combat adjusted accordingly
+      - For more detail, see loading_screen\common\defines\UU_defines.txt under NCombat
     - Low relations no longer blocks players from forming alliances
     - Secure Flanks bonus for infantry changed to 35%/70% from 5%/10%
     - Correct Section chance set to 100%
@@ -30,10 +31,8 @@
     - Defensive gives up to +33% fort defense, and -10% siege ability. No longer affects army movement speed. 
     - Age of Renaissance diplo focus buffed: +2.5% income from vassals, +250 trade range
     - Theocracy mil tactics advance increase from 0.025 to 0.1
-  - Asia
-    - Ottomans starts with every location cored
-    - Players can't become a Middle Kingdom tributary or get money from them
-    - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations
+
+- Regional
   - W. Europe
     - Pope no longer receives tithe income
     - France and England can't hold parliament until the end of the HYW
@@ -48,6 +47,10 @@
     - Czech culture removed from German culture Group
     - Bohemian regional silver and 2 gold removed. Added 1 gold in Berchtesgaten, 1 silver in Prüm
     - Silesia starts independent and united, and outside the HRE
+  - Asia
+    - Ottomans starts with every location cored
+    - Players can't become a Middle Kingdom tributary or get money from them
+    - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations    
   - Africa
     - Morocco starts with every location cored
 
@@ -106,5 +109,6 @@
 
 # Working in this Repo
 
-### Please create a new branch to make your changes in. When you have completed your branch and want to merge them into everyone elses changes please create a Pull Request and add a few Discord members as reviewers. 
-### This helps us keep our code clean and reduces conflicts between peoples changes.
+### When making changes, please append a #UU comment to changed lines so changes are not lost when the mod is updated to a new version.
+### IMPORTANT: Please review the error.log and test major changes in-game to make sure everything is functional before pushing changes.
+### This helps us keep our code clean and reduces the chance of campaign-ending bugs (has happened before!!).
