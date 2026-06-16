@@ -25,6 +25,7 @@
 		maximum_religious_influence = 900
 
 		cannot_declare_no_cb_wars_on_religion_head = yes
+		country_allow_canonization = yes
 	}
 	
 	opinions = {
