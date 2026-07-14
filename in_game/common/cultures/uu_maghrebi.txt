@@ -1,0 +1,48 @@
+﻿REPLACE:sanhaja = {
+	language = tamazight_language
+	
+	color = map_sanhaja
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	opinions = {	
+		kabyle = kindred
+		masmuda = positive
+		tuareg = kindred
+
+		moroccan = kindred #UU
+	}		
+	
+	use_patronym = yes
+
+	culture_groups = {
+		amazigh_group
+		maghrebi_group
+	}
+}
+
+REPLACE:moroccan = {
+	language = maghrebi_dialect
+	
+	color = map_morocco
+	
+	tags = { maghrebi_gfx middle_east_gfx }
+
+	opinions = {
+		castilian = negative
+		portuguese = negative
+		zenati = positive
+		algerian = positive
+		tunisian = positive
+		andalusi = kindred
+
+		sanhaja = kindred #UU
+	}		
+	
+	use_patronym = yes
+	
+	culture_groups = {
+		arabic_group
+		maghrebi_group
+	}
+}

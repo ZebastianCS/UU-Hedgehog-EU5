@@ -4,7 +4,6 @@
 	rank_modifier = {
 		max_diplomats = 2
 		diplomatic_range = 1000
-		great_power_score_exempt_from_forfeit = 100	#UU
 		
 		monthly_prestige = 0.2
 
@@ -26,7 +25,7 @@
 		
 		num_local_governors = 1
 		
-		
+		ai_amount_of_parallel_charters = 4
 	}
 
 	level = 4
@@ -34,6 +33,7 @@
 	victory_card = yes
 
 	ai_level = 4
+	ai_conquer_desire_multiplier = 4
 	
 	language_power_scale = 2
 	
@@ -54,7 +54,6 @@ rank_kingdom = {
 	rank_modifier = {
 		max_diplomats = 1
 		diplomatic_range = 500
-		great_power_score_exempt_from_forfeit = 50 #UU
 		
 		num_possible_rivals = 3
 
@@ -75,12 +74,15 @@ rank_kingdom = {
 		
 		
 		mercenary_range_modifier = 0.5
+
+		ai_amount_of_parallel_charters = 2
 	}
 	
 	level = 3
 
 	victory_card = yes
 	ai_level = 3
+	ai_conquer_desire_multiplier = 2
 	
 	language_power_scale = 1
 	
@@ -93,8 +95,6 @@ rank_kingdom = {
 rank_duchy = {
 	color = color_rank_duchy
 	rank_modifier = {
-		great_power_score_exempt_from_forfeit = 25 #UU
-		
 		diplomatic_range = 200
 		
 		monthly_prestige = 0.05
@@ -107,7 +107,6 @@ rank_duchy = {
 		allowed_guarantee = yes
 
 		mercenary_range_modifier = 0.25
-
 		global_integration_speed_modifier = 0.75 #UU
 	}
 	

@@ -13,7 +13,14 @@
 	
 	important_country = PAP
 	
-	tithe = 0.0													#UU does this work? removing tithe
+	tithe = 0.002													#UU Tithe is 10% of vanilla
+	
+	goods_demand_modifier = {
+		fish = 1.25
+	}
+	clergy_goods_demand_modifier = {
+		incense = 2
+	}
 	
 	definition_modifier = {
 		clergy_estate_max_tax = -1.0

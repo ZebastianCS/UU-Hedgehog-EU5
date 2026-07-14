@@ -4,13 +4,10 @@
 
 - Global
   - General
-    - Removed crownpower malus from having debt
     - Expensive education upfront cost removed, changed from 5% to 15% cost of court modifier instead
     - Max. fort limit from number of locations halved
     - Stability cost of deleting markets reduced to 10
     - Base diplo-annexation cost changed from 200 to 125
-    - GP score from country ranks halved
-    - GP score from regulars doubled
     - Rivers now visible in Road/Road Builder mapmodes
     - Adjusted coalition war goal to make releasing countries from defender less cheap/taking land from attacker less expensive
     - Added a debuffing estate privilege to the following major nations: 
@@ -34,8 +31,8 @@
 
 - Regional
   - W. Europe
-    - Pope no longer receives tithe income
-    - France and England can't hold parliament until the end of the HYW
+    - Pope receives vastly reduced tithe income
+    - France can't hold parliament until the end of the HYW
       - England receives a land military boost during the HYW, which they keep if they win, and converts to a malus if they lose
     - Flanders starts independent and as an HRE prince
     - Brittany is a vassal of England instead of France
@@ -52,7 +49,7 @@
     - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations    
   - Africa
-    - Morocco starts with every location cored
+    - Morocco starts with Sanhaja as kindred culture
 
 
 
@@ -70,6 +67,7 @@
   - Files changed (1):
     - in_game\gui\build_location_lateralview_expanded.gui
 - Mazutaki's **Dense Tech Tree**
+  - *NOTE: Temporarily removed for 1.3.0 Update*
   - Files changed (1):
     - in_game\gui\technology_lateralview.gui
 - nqwery's **Remove Start Game Smoke Effect**

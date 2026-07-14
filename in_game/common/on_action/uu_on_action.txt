@@ -7,10 +7,11 @@
                 trigger_event_non_silently = flavor_nap.200     #The will of King Robert
             }
 
-            c:TUR = {   #Ottomans
-                every_owned_location = { change_integration_level = core }
+            c:SWE = {
+                trigger_event_non_silently = flavor_swe.5       #Sala silver mine
             }
-            c:MOR = {   #Morocco
+
+            c:TUR = {   #Ottomans
                 every_owned_location = { change_integration_level = core }
             }
 

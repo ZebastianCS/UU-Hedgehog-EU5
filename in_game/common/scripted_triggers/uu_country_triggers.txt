@@ -73,6 +73,7 @@ REPLACE:can_upgrade_country_rank_empire = {
 	prestige > 35
 	is_subject = no
 }
+
 REPLACE:can_upgrade_country_rank_kingdom = {
 	OR = {
 		total_population > 2000
@@ -97,6 +98,7 @@ REPLACE:can_upgrade_country_rank_kingdom = {
 	prestige > 25		
 	is_subject = no
 }
+
 REPLACE:can_upgrade_country_rank_duchy = {
 	OR = {
 		total_population > 200
@@ -104,20 +106,4 @@ REPLACE:can_upgrade_country_rank_duchy = {
 		total_accepted_culture_population > 100
 	}
 	prestige > 12.5
-}
-
-REPLACE:can_country_have_tusi = {			#UU temp until bugfix?
-	exists = international_organization:middle_kingdom
-	OR = {
-		is_leader_of_international_organization = international_organization:middle_kingdom
-		AND = {
-			is_subject = yes
-			is_subject_type = tusi			#UU this line previously bugged
-		}
-		AND = {
-			exists = international_organization:middle_kingdom.leader_country
-			is_subject_of = international_organization:middle_kingdom.leader_country
-			#culture = overlord.culture		#UU this seems to cause some errors.
-		}
-	}
 }
