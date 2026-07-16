@@ -45,6 +45,7 @@
     - Bohemian regional silver and 2 gold removed. Added 1 gold in Berchtesgaten, 1 silver in Prüm
     - Silesia starts independent and united, and outside the HRE
   - Asia
+    - East Asia subcontinent depopulated entirely
     - Ottomans starts with every location cored
     - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations    
