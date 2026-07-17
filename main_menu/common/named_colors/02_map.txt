@@ -21,6 +21,8 @@ colors = {
 	map_TWS = rgb { 33 119 58 }			#EU5 Stettin
 	map_STE = rgb { 33 149 58 }			#Changed slightly
 	map_DAU2 = rgb { 253 211 11 }		#Yellow - as a favour to herisson
+	map_venice_purple = hsv360 { 350 60 50 } #EU5 Rome 
+	map_ROM = rgb { 128 0 32 }			#EU5 Venice Purple
 
 	########################
 
@@ -49,8 +51,10 @@ colors = {
 	map_friulian = rgb { 34 30 174 }
 	map_highland = hsv360 { 222 70 60 }
 	map_IRE = hsv360 { 114 74 55 }
+	map_MTH = hsv360 { 193 78 92 }
+	map_MCM = hsv360 { 158 30 85 }
 	map_EUR = hsv360 { 220 100 60 }
-	map_ROM = hsv360 { 350 60 50 }
+	# map_ROM = hsv360 { 350 60 50 }		#UU
 	# map_ITA = hsv360 { 92 51 67 }			#UU
 	map_NSE = hsv360 { 204 61 88 }
 	map_MAY = hsv360 { 92 54 71 }
@@ -152,6 +156,7 @@ colors = {
 	map_SKO = rgb { 201 19 700 }
 	map_HAU = rgb { 48 169 96 }
 	map_KON = rgb { 199 160 139 }
+	map_SMC = rgb { 96 183 6 }
 
 	map_DNS = rgb { 255 212 42 }
 
@@ -243,6 +248,7 @@ colors = {
 	map_BOU = rgb { 0 140 165 } #same as in EU4
 	map_AUV = rgb { 218 155 75 } #same as in EU4
 	map_TOU = rgb { 120 12 30 }  
+	map_OCC = rgb { 200 20 30 }
 	map_BER = rgb { 85 65 215 } #same as in EU4
 	map_MIE = rgb { 87 189 57 }
 	map_MLH = rgb { 155 170 136 } #same as in EU4
