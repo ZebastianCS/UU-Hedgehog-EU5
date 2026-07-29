@@ -8,7 +8,7 @@
             }
 
             c:SWE = {
-                trigger_event_non_silently = flavor_swe.5       #Sala silver mine
+                trigger_event_non_silently = flavor_swe.38       #Sala silver mine
             }
 
             c:TUR = {   #Ottomans
