@@ -42,6 +42,8 @@ NCombat = {
 	INITIATIVE_CHANCE_HOURS = 0.12			#was 0.01 | Chance to engage per hour passed (adds with INITIATIVE_CHANCE_EACH)
 
 	COMBAT_SPEED_SCALE = 0.5				#was 0.05 | No idea what this does, but Gekk mod had it 	
+
+	LAND_LEVY_COMBAT_IMPACT = 0.5			#was 0.75 | Buffed in 1.3 but combined with UU inf buffs, levies became too strong
 }
 
 NDiplomacy = {
