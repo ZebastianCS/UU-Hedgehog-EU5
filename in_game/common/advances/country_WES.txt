@@ -1,0 +1,13 @@
+﻿westphalian_tolerance = {
+	age = age_1_traditions
+	icon = patriarchate_of_lithuania
+
+	potential = {
+		has_or_had_tag = WES
+	}
+
+	tolerance_own = 1
+	tolerance_heretic = 1
+
+	requires = res_publica_christiana
+}
