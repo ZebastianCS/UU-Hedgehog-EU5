@@ -4,17 +4,15 @@
 
 - Global
   - General
-    - Removed crownpower malus from having debt
     - Expensive education upfront cost removed, changed from 5% to 15% cost of court modifier instead
     - Max. fort limit from number of locations halved
     - Stability cost of deleting markets reduced to 10
-    - Base diplo-annexation cost changed from 200 to 125
-    - GP score from country ranks halved
-    - GP score from regulars doubled
+    - Base diplo-annexation cost changed from 200 to 100
+    - Cooldown to increase cultural opinion from subjects reduced to 33 years from 50
     - Rivers now visible in Road/Road Builder mapmodes
     - Adjusted coalition war goal to make releasing countries from defender less cheap/taking land from attacker less expensive
     - Added a debuffing estate privilege to the following major nations: 
-      - France, England, Hungary, Castile, Mamluks, Naples, Bohemia
+      - France, England, Hungary, Castile, Mamluks, Naples
     - Towns/Cities now have a -10%/-25% food production debuff
     - Lowered prestige cost and increased gold cost for increasing country rank
     - Counties/Duchies have a +100%/+75% integration speed buff
@@ -24,6 +22,7 @@
       - For more detail, see loading_screen\common\defines\UU_defines.txt under NCombat
     - Low relations no longer blocks players from forming alliances
     - Secure Flanks bonus for infantry changed to 35%/70% from 5%/10%
+    - Base levy combat effectiveness reverted to 0.5 from 0.75 because of the above
     - Correct Section chance set to 100%
     - Players cannot have forts on adjacent locations
   - Societal Values and Advances
@@ -34,8 +33,10 @@
 
 - Regional
   - W. Europe
-    - Pope no longer receives tithe income
-    - France and England can't hold parliament until the end of the HYW
+    - Forming Scandinavia grants you access to all Sweden, Denmark, and Norway advances
+    - Forming Netherlands grants you access to all Holland, Braband, and Flanders advances
+    - Pope receives vastly reduced tithe income
+    - France can't hold parliament until the end of the HYW
       - England receives a land military boost during the HYW, which they keep if they win, and converts to a malus if they lose
     - Flanders starts independent and as an HRE prince
     - Brittany is a vassal of England instead of France
@@ -43,16 +44,21 @@
     - Catholics can form Empires
     - HRE imperial manpower contribution has been reduced to 1/5th of vanilla
     - Naples event for succession law now fires immediately on game start
+    - Swedish event for Sala silver mine now fires immediately on game start
+    - French Wars of Religion disaster war exhaustion malus changed to 0.1 from 0.15 
   - E. Europe
+    - Forming Russia grants you access to all Novgorod, Muscovy, and Smolensk advances
+    - Forming Commonwealth grants you access to all Poland and Lithuania advances
     - Czech culture removed from German culture Group
     - Bohemian regional silver and 2 gold removed. Added 1 gold in Berchtesgaten, 1 silver in Prüm
     - Silesia starts independent and united, and outside the HRE
+    - Hellenism disabled for AI until critical bug fixed by pdx
   - Asia
+    - East Asia subcontinent depopulated entirely
     - Ottomans starts with every location cored
-    - Players can't become a Middle Kingdom tributary or get money from them
     - Delhi disaster now releases Jaunpur, Malwa, Gujarat, Bahmanis as independent nations    
   - Africa
-    - Morocco starts with every location cored
+    - Morocco starts with Sanhaja as kindred culture
 
 
 
@@ -70,6 +76,7 @@
   - Files changed (1):
     - in_game\gui\build_location_lateralview_expanded.gui
 - Mazutaki's **Dense Tech Tree**
+  - *NOTE: Temporarily removed for 1.3.0 Update*
   - Files changed (1):
     - in_game\gui\technology_lateralview.gui
 - nqwery's **Remove Start Game Smoke Effect**

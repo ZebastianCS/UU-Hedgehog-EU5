@@ -11,8 +11,14 @@
 			months_since_last_parliament_called > "define:NCountry|PARLIAMENT_COOLDOWN_MONTHS"
 			NOT = {
 				modifier:parliament_abolished = yes
+				modifier:has_a_parliamentary_system = no
 			}
-			NOT = { has_country_modifier = hundred_years_war_impact } #uu added
+			NOT = { #UU France is punished for staying in the HYW
+				AND = {
+					has_or_had_tag = FRA
+					has_country_modifier = hundred_years_war_impact 
+				}
+			} 
 		}
 	}
 
@@ -52,7 +58,7 @@
 			has_owner = yes
 			owner ?= scope:actor
 			controller ?= scope:actor
-			proximity > 0
+			local_control > 0
 			OR = {
 				is_capital = yes
 				AND = {
@@ -94,6 +100,7 @@
 				}
 			}
 		}
+		cache_interaction_source_list = yes
 		cache_targets = yes
 		target_flag = parliament_issue
 		name = "select_parliament_debate"
@@ -269,7 +276,7 @@
 					add = 2
 				}
 				else_if = {
-					limit = { location_rank = location_rank:city }
+					limit = { OR = { location_rank = location_rank:city  location_rank = location_rank:megalopolis } }
 					add = 10
 				}
 

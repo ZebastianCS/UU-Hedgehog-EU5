@@ -13,16 +13,16 @@ REPLACE:num_locations_impact = {
 }
 
 
-REPLACE:debt_impact = {
-	scales_with = {
-		value = total_debt
-		divide = country_economical_base
-	}
-
-	#global_crown_estate_power = -0.025	#UU removed
-	monthly_doom = 0.005
-	monthly_righteousness = -0.001
-}
+#REPLACE:debt_impact = {			#UU This mechanic was replaced with creditworthiness in 1.3
+#	scales_with = {
+#		value = total_debt
+#		divide = country_economical_base
+#	}
+#
+#	#global_crown_estate_power = -0.025	#UU removed
+#	monthly_doom = 0.005
+#	monthly_righteousness = -0.001
+#}
 
 REPLACE:regular_army_size = {
 

@@ -1,6 +1,4 @@
-﻿
-
-REPLACE:french_feudal_nobility = { # French Feudalism
+﻿REPLACE:french_feudal_nobility = { # French Feudalism
     unique = yes
 	potential = {
 		has_or_had_tag = FRA
@@ -29,12 +27,15 @@ REPLACE:french_feudal_nobility = { # French Feudalism
 		cultures_capacity = 1	#UU Decrease from 2
 		monthly_towards_serfdom = societal_value_large_monthly_move
 		monthly_towards_aristocracy = societal_value_monthly_move
+		subject_loyalty = -10
+		global_levy_size_modifier = -0.10
 	}
 	years = 2
 }
 
 REPLACE:french_centralized_monarchy = { # Centralized French Monarchy
     unique = yes
+	content_priority = 800
 	potential = {
 		has_or_had_tag = FRA
 		government_type = government_type:monarchy
