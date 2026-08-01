@@ -35,6 +35,8 @@
   - W. Europe
     - Forming Scandinavia grants you access to all Sweden, Denmark, and Norway advances
     - Forming Netherlands grants you access to all Holland, Braband, and Flanders advances
+    - Removed GaG requirement from Italy formable
+    - Silesia is now a T1 nation instead of T2
     - Pope receives vastly reduced tithe income
     - France can't hold parliament until the end of the HYW
       - England receives a land military boost during the HYW, which they keep if they win, and converts to a malus if they lose

@@ -12,7 +12,7 @@
 		antagonism_declared_war_no_cb_giving_modifier = -0.1
 	}
 	right_modifier = {
-		fort_maintenance_cost = -0.2
+		fort_maintenance_efficiency = 0.2
 		combat_speed_modifier = 0.1
 		
 		global_defensive = 0.33

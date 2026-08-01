@@ -23,12 +23,3 @@ REPLACE:num_locations_impact = {
 #	monthly_doom = 0.005
 #	monthly_righteousness = -0.001
 #}
-
-REPLACE:regular_army_size = {
-
-	scales_with = {
-		value = regular_army_size
-	}
-	
-	great_power_score = 2.5
-}

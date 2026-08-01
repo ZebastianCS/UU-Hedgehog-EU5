@@ -1345,35 +1345,6 @@ BOH_f = {
 	}
 }
 
-SIL_f = { ## UU added
-	level = 1
-	required_locations_fraction = 0.75
-	rule = historical
-	
-	potential = {
-		OR = {
-			culture = culture:czech
-			culture = culture:moravian
-		}
-	}
-	allow = {
-		owns = location:prague
-	}
-	
-	name = SIL
-	flag = SIL
-	adjective = SIL_ADJ
-	tag = SIL
-	color = map_SIL
-
-	areas = {
-		bohemia_area
-		moravia_area
-	}
-	form_effect = {
-	}
-}
-
 SAX_f = { # Saxony
 
 	level = 2
@@ -1695,7 +1666,7 @@ MAZ_f = { # Mazovia
 
 SIL_f = { 
 
-	level = 2
+	level = 1	#UU
 	required_locations_fraction = 0.75
 	rule = historical
 	potential = {
@@ -2236,6 +2207,10 @@ ITA_f = {
 				owns = location:florence
 				owns = location:naples
 			}
+			#custom_tooltip = {		#UU
+			#	text = gag_guelphs_winner_may_form_italy_without_location_requirements_tt
+			#	has_variable = gag_guelphs_winner_may_form_italy_without_location_requirements
+			#}
 		}
 	}
 	
