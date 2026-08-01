@@ -1877,7 +1877,6 @@ countries = {
 			privilege = {
 				inaugural_diplomas
 				ius_teutonicum
-				overextension #uu addition
 			}
 
 		}

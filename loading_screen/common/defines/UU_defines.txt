@@ -18,7 +18,7 @@ NGame = {
 }
 
 NCountry = {
-	ANNEX_BASE_COST = 125
+	ANNEX_BASE_COST = 100
 }
 
 NUnit = {
